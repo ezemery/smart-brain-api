@@ -13,7 +13,7 @@ services:
     links:
       - postgres
     ports:
-      - 3000:3000
+      - 80:80
     volumes:
       - ./:/usr/src/smart-brain-api-master
   # Postgres service
